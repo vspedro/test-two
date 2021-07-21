@@ -1,0 +1,32 @@
+{
+    "name": "test-two",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "README.md",
+        "levels/Level1-1.json",
+        "levels/Level1-2.json",
+        "sprites/Animations.json",
+        "sprites/BackgroundSprites.json",
+        "sprites/Goomba.json",
+        "sprites/ItemAnimations.json",
+        "sprites/Koopa.json",
+        "sprites/Mario.json",
+        "sprites/RedMushroom.json",
+        "main.blocks",
+        "main.ts",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.4.45",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
